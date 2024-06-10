@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Monify</title>
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://sdk.monnify.com/plugin/monnify.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <h2>Bankbat Agricultural farm Nigeria lmt.</h2>
+  <div class="image-container">
+    <div class="dryMaize">
+      <img class="dry" src="https://tunstelecom.com.ng/wp-content/uploads/2024/06/images-2.jpeg">
+      <h3>Bankbat Dry maize</h3>
+      <p class="red"><strong>$0.9</strong></p>
+      <p>Get your hands on our premium quality dry maize! Perfect for flour, animal feed, and more – our dry maize is
+        harvested with care and processed to maintain its natural goodness. Stock up now for nutritious and versatile
+        maize that fits all your needs!</p>
+    </div>
+    <div class="freshMaize">
+      <img class="fresh" src='https://tunstelecom.com.ng/wp-content/uploads/2024/06/images-3.jpeg' ;>
+      <h3>Bankbat fresh maize</h3>
+      <p class="red"><strong>$0.5</strong>
+      <p>Enjoy the sweet and juicy taste of farm-fresh maize! Our freshly harvested maize is perfect for grilling,
+        boiling, or adding to your favorite recipes. Taste the difference of fresh, locally-grown maize – order yours
+        today and savor the flavor!</p>
+    </div>
+  </div> <br> <br>
+  <p class="term">*Terms and conditions apply</p>
+  <div class="form-container">
+    <form id="form-container">
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name"> <br>
+      <label for="address">Address:</label>
+      <input type="text" name="address" id="address" required> <br>
+      <label for="amount">Amount:</label>
+      <input type="number" name="amount" id="amount" required> <br>
+      <label for="phone">Phone number:</label>
+      <input type="number" name="phone" id="phone"><br>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email"><br>
+      <button type="button" onclick="payWithMonnify()">Buy now</button>
+    </body>
+</html>
