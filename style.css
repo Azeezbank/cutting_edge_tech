@@ -1,4 +1,4 @@
-body {font-family: Arial, sans-serif; margin: 0 10px}
+body {font-family: Arial, sans-serif; margin: 0 10px; width: 100%}
 .image-container {display: flex;}
 .dryMaize {width: 48%; margin-right: 5px; background-color: #f1f1f1}
 .dry {width: 100%; height: auto;}
