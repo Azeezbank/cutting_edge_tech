@@ -19,7 +19,7 @@ body {
   height: 50%;
 }
 .freshMaize {
-  width: 48%;
+  width: 50%;
   background-color: #f1f1f1;
   margin-left: 5px;
 }
@@ -42,7 +42,7 @@ label {
   padding-right: 15px;
 }
 input {
-  margin-bottom: 3px;
+  margin-bottom: 3px; border-radius: 8px
 }
 button {
   background-color: red;
