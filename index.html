@@ -6,43 +6,64 @@
   <meta name="viewport" content="width=device-width">
   <title>Monify</title>
   <link href="style.css" rel="stylesheet">
+
   <script type="text/javascript" src="https://sdk.monnify.com/plugin/monnify.js"></script>
   <script src="script.js"></script>
 </head>
 
 <body>
-  <h2>Bankbat Agricultural farm Nigeria lmt.</h2>
+
+  <div class="poiner">
+    <img src="https://tunstelecom.com.ng/wp-content/uploads/2024/06/20240611_091935_0_io_thread_1718092033461.png" style="width: 40%">
+    <div style="text-indent: 10px;">
+      <h2>Bankbat Agricultural farm Nigeria Ltd.</h2>
+      <h4> Pioneering Agricultural Technology</h4>
+      <p>We're spearheading the integration of cutting-edge technology in the agricultural sector, revolutionizing the way products are bought and sold. <br> <br>
+      Driven by a commitment to customer satisfaction, we prioritize meeting evolving client needs, while enhancing efficiency and growth in the industry.</p>
+      <div class="by">
+        <div class="az">Az</div>
+        <div style="margin-top: 10px;"> by Azeez Bankole</div>
+      </div>
+  </div>
+  </div>
+  <br> <br>
+  <h2>Our farm produce.</h2>
   <div class="image-container">
     <div class="dryMaize">
-      <img class="dry" src="https://tunstelecom.com.ng/wp-content/uploads/2024/06/images-2.jpeg"> <br><br>
+      <img class="dry" src="https://tunstelecom.com.ng/wp-content/uploads/2024/06/images-2.jpeg"> <br> <br>
       <h3>Bankbat Dry maize</h3>
-      <p class="red"><strong>$0.9</strong></p>
+      <p class="red"><strong>NGN, #1,540</strong></p>
       <p>Get your hands on our premium quality dry maize! Perfect for flour, animal feed, and more – our dry maize is
         harvested with care and processed to maintain its natural goodness. Stock up now for nutritious and versatile
         maize that fits all your needs!</p>
+      <button  id="button" type="button">Buy now</button> <br> <br>
     </div>
     <div class="freshMaize">
       <img class="fresh" src='https://tunstelecom.com.ng/wp-content/uploads/2024/06/images-3.jpeg' ;>
       <h3>Bankbat fresh maize</h3>
-      <p class="red"><strong>$0.5</strong>
+      <p class="red"><strong>NGN, #10,000</strong></strong>
       <p>Enjoy the sweet and juicy taste of farm-fresh maize! Our freshly harvested maize is perfect for grilling,
         boiling, or adding to your favorite recipes. Taste the difference of fresh, locally-grown maize – order yours
         today and savor the flavor!</p>
+      <button id="button" type="button">Buy. now</button>
     </div>
-  </div> <br>
+  </div>
   <p class="term">*Terms and conditions apply</p>
   <div class="form-container">
     <form id="form-container">
       <label for="name">Name:</label>
-      <input type="text" name="name" id="name"> <br>
+      <input type="text" name="name" id="name" placeholder="Full name" required> <br>
       <label for="address">Address:</label>
-      <input type="text" name="address" id="address" required> <br>
+      <input type="text" name="address" id="address" placeholder="Input your home address" required> <br>
       <label for="amount">Amount:</label>
-      <input type="number" name="amount" id="amount" required> <br>
+      <input type="number" name="amount" id="amount" placeholder="Amount in naira" required> <br>
       <label for="phone">Phone number:</label>
-      <input type="number" name="phone" id="phone"><br>
+      <input type="number" name="phone" id="phone" placeholder="Reachable phone number" required><br>
       <label for="email">Email:</label>
-      <input type="email" name="email" id="email"><br>
-      <button type="button" onclick="payWithMonnify()">Buy now</button>
-    </body>
+      <input type="email" name="email" id="email" placeholder="Input valid email address" required><br>
+      <button class="button" type="button" onclick="payWithMonnify()">Buy now</button>
+    </body> <br> <br>
+      <footer style="background-color: #ccc; margin-left: -10px; margin-right: -100px; margin-bottom: -30px; padding: 15px; text-align: center">
+        Copy right © of Bankbat Agricultural farm Nigeria Ltd 2024.|| Alright reserved.
+      </footer>
 </html>
