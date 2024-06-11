@@ -11,7 +11,7 @@ h3 {text-align: center}
 label {border: 1px solid gray; border-radius: 5px; padding-right: 15px}
 input {margin-bottom: 3px; width: 100%}
 .button {background-color: red; width: 100%}
-h2 {text-align: center; color: red}
+h2 {text-align: center; color: red; font-size: 20px}
 .success {color: green}
 .poiner {display: flex; width: 100%; column-gap: 20px; border-bottom: 15px solid #f1f1f1}
 .by {display: flex; margin-top: 40px;}
