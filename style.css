@@ -19,5 +19,5 @@ h2 {text-align: center; color: red}
 #form-container {width: 90%;}
 #button {width: 30%; background-color: red; margin-left: 35%;}
 @media screen and (max-width: 700px) {
-  .poiner {display: flex; width: 100%; column-gap: 20px; border-bottom: 15px solid #f1f1f1; height: 50%;}
+  .poi {display: flex; width: 100%; column-gap: 20px; border-bottom: 15px solid #f1f1f1; height: 50%;}
 }
