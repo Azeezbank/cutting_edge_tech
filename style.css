@@ -12,11 +12,11 @@ body {
 }
 .dry {
   width: 100%;
-  height: 50%;
+  height: auto;
 }
 .fresh {
   width: 100%;
-  height: 50%;
+  height: auto;
 }
 .freshMaize {
   width: 50%;
