@@ -1,20 +1,23 @@
-body {font-family: Arial, sans-serif; margin: 0 10px;}
-.image-container {display: flex;}
-.dryMaize {width: 100%; margin-right: 5px; background-color: #f1f1f1}
+body {font-family: Arial, sans-serif; margin: 0 20px}
+.image-container {display: grid; grid-template-columns: auto auto auto; gap: 15px}
+.dryMaize {width: 100%; background-color: #f1f1f1}
 .dry {width: 100%; height: auto;}
 .fresh {width: 100%; height: auto}
-.freshMaize {width: 100%; background-color: #f1f1f1; margin-left: 5px}
-h3 {text-align: center; font-size: 12px}
 .red {color: red; text-align: center}
 .term {text-align: center}
 .form-container {display: flex}
-label {border: 1px solid gray; border-radius: 5px; padding-right: 15px}
+label {border: 1px solid black; border-radius: 5px; padding-right: 15px}
 input {margin-bottom: 3px; width: 100%}
 .button {background-color: red; width: 100%}
-h2 {text-align: center; color: red; font-size: 20px}
+h2 {text-align: center; color: red}
 .success {color: green}
 .poiner {display: flex; width: 100%; column-gap: 20px; border-bottom: 15px solid #f1f1f1}
 .by {display: flex; margin-top: 40px;}
 .az { background-color: lightgreen; border-radius: 50%; padding-top: 5px; padding-right: 1.5px; text-align: center;}
-#form-container {width: 90%;}
-#button {width: 30%; background-color: red; margin-left: 35%;}
+#form-container {width: 100%;}
+#butto {width: 30%; background-color: green; margin-left: 35%; color: #fff; border-radius: 10px;}
+h3 {text-align: center}
+#cart-total {text-align: center; color: green; font-weight: bolder}
+.cart {border: 1px solid grey; background-color: #f1f1f1; margin: 0 10%; border-radius: 5px; box-shadow: 0 0 5px;}
+li {font-weight: bold;}
+.offer {text-indent: 15px; border: 1px solid grey; padding: 0 10px; background-color: #f1f1f1; box-shadow: 0 0 10px;}
