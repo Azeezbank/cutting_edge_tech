@@ -1,5 +1,3 @@
-
-
 document.addEventListener('DOMContentLoaded', () => {
     const cart = [];
     const cartItemsContainer = document.getElementById('cart-items');
