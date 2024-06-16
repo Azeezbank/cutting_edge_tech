@@ -21,4 +21,4 @@ h3 {text-align: center}
 .cart {border: 1px solid grey; background-color: #f1f1f1; margin: 0 10%; border-radius: 5px; box-shadow: 0 0 5px;}
 li {font-weight: bold;}
 .offer {text-indent: 15px; border: 1px solid grey; padding: 0 10px; background-color: #f1f1f1; box-shadow: 0 0 10px;}
-@media {p {font-size: 5px}};
+@media (max-width: 700px) {p {font-size: 5px}};
