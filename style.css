@@ -12,7 +12,7 @@ input {margin-bottom: 3px; width: 100%}
 h2 {text-align: center; color: red}
 .success {color: green}
 .poiner {display: flex; width: 100%; column-gap: 20px; border-bottom: 15px solid #f1f1f1}
-.by {display: flex; margin-top: 40px;}
+.by {display: flex; margin-top: 40px; font-weight: bold}
 .az { background-color: lightgreen; border-radius: 50%; padding-top: 5px; padding-right: 1.5px; text-align: center;}
 #form-container {width: 100%;}
 #butto {width: 30%; background-color: green; margin-left: 35%; color: #fff; border-radius: 10px;}
