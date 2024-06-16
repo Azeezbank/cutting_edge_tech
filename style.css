@@ -28,5 +28,6 @@ li {font-weight: bold;}
                            .red {font-size: 10px}
                            #butto {font-size: 10px; width: 50%}
                            #myChart {height: 24vh}
-                           .by {font-size: 10px; font-weight: bold; margin-top: 0px; padding-top: 0px}
+                           .by {font-size: 10px; font-weight: bold; margin-top: 0px; margin: 0 5%}
+                           .cart {width: 90%
                           };
