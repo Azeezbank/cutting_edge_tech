@@ -19,7 +19,7 @@ h2 {text-align: center; color: red}
 h3 {text-align: center}
 #cart-total {text-align: center; color: green; font-weight: bolder}
 .cart {border: 1px solid grey; background-color: #f1f1f1; margin: 0 10%; border-radius: 5px; box-shadow: 0 0 5px;}
-li {font-weight: bold; font-size: 10px}
+li {font-weight: bold;}
 .offer {text-indent: 15px; border: 1px solid grey; padding: 0 10px; background-color: #f1f1f1; box-shadow: 0 0 10px;}
 @media (max-width: 800px) {.p {font-size: 10px}
                           h2 {font-size: 15px}
@@ -29,5 +29,6 @@ li {font-weight: bold; font-size: 10px}
                            #butto {font-size: 10px; width: 50%}
                            #myChart {height: 24vh}
                            .by {font-size: 10px; font-weight: bold; margin-top: 0px; margin: 0 5%}
-                           .cart {width: 90%
+                           .cart {width: 90%}
+                           li {font-size: 10px; font-weight: bold}
                           };
