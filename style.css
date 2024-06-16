@@ -24,7 +24,7 @@ li {font-weight: bold;}
 .p1 {font-size: 25px}
 h4 {font-size: 30px;}
 h5 {color: red; font-size: font-size: 30px; font-weight: bold;}
-.details {display: grid; grid-template-columns: 40% 60%; background-color: rgba(204, 204, 204, 0.5); font-size: 10px; margin: 0 -10 0 -20px; padding: 0 40px}
+.details {display: grid; grid-template-columns: 40% 60%; background-color: rgba(204, 204, 204, 0.5); font-size: 10px; margin: 0px -10px 0px -20px; padding: 0px 30px 0px 40px}
 @media (max-width: 800px) {.p {font-size: 10px}
                           h2 {font-size: 15px}
                            h3 {font-size: 10px}
