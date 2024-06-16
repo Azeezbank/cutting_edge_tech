@@ -1,4 +1,4 @@
-body {font-family: Arial, sans-serif; margin: 0 20px}
+main {font-family: Arial, sans-serif; margin: 0 20px}
 .image-container {display: grid; grid-template-columns: auto auto auto; gap: 15px}
 .dryMaize {width: 100%; background-color: #f1f1f1}
 .dry {width: 100%; height: auto;}
