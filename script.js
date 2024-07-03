@@ -68,7 +68,7 @@ button.addEventListener('click', () => {
     },
     onClose: function (data) {
         alert("Payment window closed")
-    return;
+    //return;
     }
   });
 })
