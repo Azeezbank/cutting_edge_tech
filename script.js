@@ -54,10 +54,10 @@ button.addEventListener('click', () => {
     reference: "Monn_" + Math.floor((Math.random()* 1000000) + 1),
     customerFullName: name,
     customerEmail: email,
-    apiKey: "MK_TEST_P49UUS98XS",
-    contractCode: 5623063227,
+    apiKey: "MK_PROD_A58QFTHS2G",
+    contractCode: 068760777648,
     paymentDescription: "purchase payment",
-    isTestMode: true,
+    isTestMode: false,
     onComplete: function(response) {
       paymentSuccessful = true;
       if (paymentSuccessful) {
