@@ -54,8 +54,8 @@ button.addEventListener('click', () => {
     reference: "Monn_" + Math.floor((Math.random()* 1000000) + 1),
     customerFullName: name,
     customerEmail: email,
-    apiKey: "MK_PROD_H4XKS5PC4R",
-    contractCode: 240817712382,
+    apiKey: "MK_PROD_A58QFTHS2G",
+    contractCode: "068760777648",
     paymentDescription: "purchase payment",
     isTestMode: false,
     onComplete: function(response) {
